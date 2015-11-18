@@ -1,0 +1,37 @@
+h1{
+	font-family:Arial; /* style de la police */
+	font-size:16px ; /* taille de la police */
+	color:#0000ff ; /* couleur de la police */
+	background-color: ; /* couleur du fond */
+	text-align:center ; /* alignement horizontal du texte */
+}
+h2{
+	font-family:Helvetica, sans-serif ; /* style de la police */
+	font-size:14px ; /* taille de la police */
+	color:#00ff00 ; /* couleur de la police */
+	background-color:#ffffff ; /* couleur du fond */
+
+}
+h6{
+	font-family:Helvetica, sans-serif ; /* style de la police */
+	font-size:12px ; /* taille de la police */
+	color:#0000ff ; /* couleur de la police */
+	background-color: ; /* couleur du fond */
+}
+body{
+	background-color:#bb4444 ;
+}
+footer{
+	bottom : 0 ; /*positionnement du bloc à gauche en bas de page */
+	text-align : center;
+} 
+ul.volet {
+	color : lightblue; /*#add8e6*/
+	background-color:
+	font-family : "Trebuchet MS";
+	font-weight : bold;
+}
+img.transparent {
+	opacity : 0.6; /* CSS3 */
+	filter(opacity)=60; /* Pour IE , Internet Explorer */
+}
