@@ -1,3 +1,9 @@
+<head>
+		<meta http-equiv="Content-Type" content="text/HTML; charset=utf-8" />
+		<link rel="stylesheet" type="text/css" href="style1ELudotheque.css" media="screen" />
+		
+		<title> Catalogue E-ludothèque </title>
+	</head>
 <?php
 		
 		//paramètres de connexion à la base de données $Base="nom-base";
