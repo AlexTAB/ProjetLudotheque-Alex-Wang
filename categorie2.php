@@ -36,13 +36,21 @@
   	$Reponse = mysql_query($Requete);
   	// traitement
   	echo "<table border=1>";
+	echo "<th>Nom</th><th>Ages</th><th>Type de Jeux</th><th>Disponible</th>";
 
   	//Traitement ligne par ligne de la réponse
   	while ($donnees = mysql_fetch_array($Reponse) )
   	{
     	//Affichage des lignes de données, champ par champ
-    	echo "Nom du jeux: ".$donnees[0]." Age requis: " .$donnees[1]."  " .$donnees[2]."<br></br>";
+    	echo "<tr>";
+    	echo"<td>".$donnees[1]."</td>";
+    	echo "<td>".$donnees[2]."</td>";
+    	echo "<td>".$donnees[3]."</td>";
+    	echo "<td>".$donnees[4]."</td>";
+    	echo"</tr>";
+   
   	}
+  	echo "</table>";
 	mysql_close();
 ?>
 
