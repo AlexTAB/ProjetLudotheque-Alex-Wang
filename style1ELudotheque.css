@@ -6,10 +6,10 @@ h1{
 	text-align:center ; /* alignement horizontal du texte */
 }
 h2{
-	font-family:Helvetica, sans-serif ; /* style de la police */
+	font-family: "Times New Roman", serif ; /* style de la police */
 	font-size:14px ; /* taille de la police */
 	color:#00ff00 ; /* couleur de la police */
-	background-color:#ffffff ; /* couleur du fond */
+	background-color: #ffffff ; /* couleur du fond */
 
 }
 h6{
@@ -20,8 +20,13 @@ h6{
 }
 body{
 	background-color:#bb4444 ;
+    margin: 0px 40px 10px 70px;
+}
+p{
+    margin: 5px 50px 5px 50px;
 }
 footer{
+    font-size: 11px;
 	bottom : 0 ; /*positionnement du bloc à gauche en bas de page */
 	text-align : center;
 } 
@@ -34,4 +39,13 @@ ul.volet {
 img.transparent {
 	opacity : 0.6; /* CSS3 */
 	filter(opacity)=60; /* Pour IE , Internet Explorer */
+}
+jeux{
+    font-size: 12px;
+    color: #FFFFFF；   
+}
+form{
+    text-align:center;
+    font-family: Italic;
+    color: #00FF00;
 }
